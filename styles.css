@@ -1,0 +1,71 @@
+/********************* PAGE 1 *********************/
+
+/* GENERAL */
+.container-fluid{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+/* HEADER */
+.header{
+    background-color: red;
+    height: 300px;
+    
+}
+
+/* CONTENT */
+.content1{
+    background-color: blue;
+    height: 500px;
+}
+
+.content2{
+    background-color: violet;
+    height: 500px;
+}
+
+.content3{
+    background-color: purple;
+    height: 500px;
+}
+
+/* FOOTER */
+.footer1{
+    background-color: yellow;
+    height: 300px;
+}
+
+.footer2{
+    background-color: yellowgreen;
+    height: 300px;
+}
+
+/********************* PAGE A *********************/
+
+
+
+/********************* PAGE B *********************/
+.divisas1, .divisas2, .divisas3{
+    width: 30px;
+    height: 20px;
+}
+
+
+
+/********************* PAGE C *********************/
+.cont-c{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 400px;
+}
+
+.button1{
+    width: 30px;
+    height: 20px;
+}
+
+.buttonTraducir{
+    
+}
