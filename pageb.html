@@ -29,7 +29,7 @@
           </div>
         </div>
     </nav>     
-
+    <br>
     <div class="container">
       <div class="row">
         <div class="col-md-8 d-none d-sm-block">
@@ -37,29 +37,40 @@
             <thead>
               <tr>
                 <th scope="col"></th>
-                <th scope="col"><img src="images/divisas1.jpg" class="divisas1" alt="">ARS</th>
-                <th scope="col"><img src="/images/divisas2.jpg" class="divisas2" alt="">USD</th>
-                <th scope="col"><img src="/images/divisas3.jpg" class="divisas3" alt="">EU</th>
+                <th scope="col"><img src="images/divisas1.jpg" class="divisas1" alt=""> ARS</th>
+                <th scope="col"><img src="images/divisas2.jpg" class="divisas1" alt=""> USD</th>
+                <th scope="col"><img src="images/divisas3.jpg" class="divisas1" alt=""> EU</th>
+                <th scope="col"><img src="images/divisas4.png" class="divisas1" alt=""> R$</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row"><img src="/images/divisas1.jpg" class="divisas1" alt=""> ARS</th>
-                <td>1</td>
+                <th scope="row"><img src="images/divisas1.jpg" class="divisas1" alt=""> ARS</th>
+                <td><b>1</b></td>
                 <td>0,0088</td>
                 <td>0,0081</td>
+                <td>0,041</td>
               </tr>
               <tr>
-                <th scope="row"><img src="/images/divisas2.jpg" class="divisas2" alt=""> USD</th>
+                <th scope="row"><img src="images/divisas2.jpg" class="divisas1" alt=""> USD</th>
                 <td>113,99</td>
-                <td>1</td>
+                <td><b>1</b></td>
                 <td>0,92</td>
+                <td>4,68</td>
               </tr>
               <tr>
-                <th scope="row"><img src="/images/divisas3.jpg" class="divisas3" alt=""> EU</th>
+                <th scope="row"><img src="images/divisas3.jpg" class="divisas1" alt=""> EU</th>
                 <td>123,24</td>
                 <td>1,08</td>
-                <td>1</td>
+                <td><b>1</b></td>
+                <td>5,05</td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="images/divisas4.png" class="divisas1" alt=""> R$</th>
+                <td>24,32</td>
+                <td>0,21</td>
+                <td>0,20</td>
+                <td><b>1</b></td>
               </tr>
             </tbody>
           </table>
@@ -76,6 +87,7 @@
                 <option>Pesos Argentinos (ARS)</option>
                 <option>Dolares Estadounidenses (USD)</option>
                 <option>Euros (EU)</option>
+                <option>Real Brasileño (R$)</option>
               </select>
             </div>
             <div class="form-group">
@@ -84,10 +96,11 @@
                 <option>Dolares Estadounidenses (USD)</option>
                 <option>Pesos Argentinos (ARS)</option>
                 <option>Euros (EU)</option>
+                <option>Real Brasileño (R$)</option>
               </select>
             </div>
             <br>
-            <button type="submit" class="btn btn-danger">Convertir</button>
+            <button type="submit" class="btn btn-danger buttonConvertir">CONVERTIR</button>
             <br>
             <div class="form-group">
               <label for="resultado">Resultado</label>
@@ -97,8 +110,10 @@
         </div>
       </div>
     </div>
-
-
+    <br>
+    <footer class="page-footer font-small btn-primary">
+      <div class="footer-copyright text-center py-3">Castillo Vargas, Enzo Pedro</br>40.441.875</div>
+    </footer>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
